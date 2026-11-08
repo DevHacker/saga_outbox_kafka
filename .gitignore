@@ -1,0 +1,9 @@
+# IDE
+.idea/
+*.iml
+
+# Build
+target/
+
+# Empty nested git repo
+saga_outbox_kafka/

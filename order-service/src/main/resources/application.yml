@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: order-service
+  r2dbc:
+    url: r2dbc:postgresql://localhost:5432/order_db
+    username: postgres
+    password: postgres
+
+app:
+  kafka:
+    bootstrap-servers: localhost:9092
